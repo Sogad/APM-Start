@@ -47,11 +47,12 @@ export class ProductListComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-      console.log('Bjr');
-      this.productService.getProducts().subscribe({
+      this.sub = this.productService.getProducts().subscribe({
         next: products => { 
                           this.products = products;
                           this.filteredProducts = this.products;
+                          console.log('subscribe');
+                          
                           },
         error: err => this.errorMessage = err
       });
