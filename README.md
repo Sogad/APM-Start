@@ -1,4 +1,6 @@
-Projet crée dans le cadre d'une formation Angular.
+Projet crée dans le cadre d'une formation Angular destinée à appréhender les concepts clés du framework.
+Première formation destinée exclusivement à du front, il n'y a pas de back associé
+Fait en Janvier 2024.
 
 # Apm
 
